@@ -1,3 +1,4 @@
+#!/bin/bash
 files=$(ls)
 main=index.html
 cat /dev/null > $main
