@@ -11,6 +11,7 @@ htmlstring = """<!DOCTYPE html>
     <body>
         <h1>文件目录</h1>
         <ul>
+            <li><a href="..">..</a></li>
 """
 for i in os.listdir("."):
     if i == "index.html" or i == "CNAME" or i == "build.py" or i == "build.sh" or i == ".git":
